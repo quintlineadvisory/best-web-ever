@@ -17,6 +17,7 @@
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#contact">Pricing</a></li>
         <li><a href="#contact" class="btn btn-nav">Work Together</a></li>
       </ul>
       <button class="hamburger" aria-label="Menu">&#9776;</button>
@@ -61,7 +62,7 @@
 
       <div class="service-grid">
 
-        <div class="service-card service-card--featured">
+        <div class="service-card">
           <div class="service-num">01</div>
           <h3>Individual Coaching</h3>
           <p class="service-tagline">A thinking partner who's been in it.</p>
@@ -269,7 +270,11 @@
           </div>
         </div>
         <div class="contact-form-wrap">
-          <form class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form"
+                action="FORMSPREE_ENDPOINT_HERE"
+                method="POST">
+            <input type="hidden" name="_subject" value="New inquiry — Quintline Advisory" />
+            <input type="hidden" name="_next" value="" />
             <div class="form-group">
               <label for="name">Your name</label>
               <input type="text" id="name" name="name" placeholder="Rachel Witalec" required />
