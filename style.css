@@ -83,13 +83,15 @@ p { color: var(--text-mid); }
   border: 1.5px solid var(--sand);
 }
 .btn-ghost:hover { border-color: var(--taupe); background: var(--warm-off); }
-.btn-nav {
+.btn-nav,
+.nav-links a.btn-nav {
   background: var(--accent);
   color: #fff !important;
   padding: 10px 22px;
   font-size: 0.85rem;
 }
-.btn-nav:hover { background: var(--brown); color: #fff !important; }
+.btn-nav:hover,
+.nav-links a.btn-nav:hover { background: var(--brown); color: #fff !important; }
 .btn-full { width: 100%; text-align: center; }
 
 /* ─── Nav ─── */
