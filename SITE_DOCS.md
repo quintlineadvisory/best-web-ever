@@ -2,6 +2,34 @@
 
 ---
 
+## What I Built & How to Talk About It
+
+**The short version:**
+A fully custom-coded marketing website, built from scratch without any website builder or template. Hosted on professional infrastructure with a custom domain, live analytics, and a working contact form pipeline.
+
+**The tech stack:**
+- **HTML** — the structure and content of every page. Think of it as the skeleton.
+- **CSS** — all the visual design: colors, fonts, spacing, layout, animations. Every design decision (the warm cream palette, the serif headings, the hover effects) is hand-written.
+- **JavaScript** — the interactive behavior: the mobile menu, the smooth scroll, the form submission with toast notifications.
+- **No frameworks, no page builders, no Squarespace.** The entire site is three files written by hand.
+
+**Hosting & infrastructure:**
+- **Vercel** — a professional cloud platform used by companies like Meta and The Washington Post. Auto-deploys every time code is pushed. Handles HTTPS (the padlock), global CDN (fast loading anywhere in the world), and custom domain routing.
+- **GitHub** — version control. Every change to the site is tracked, reversible, and stored in the cloud. Industry-standard engineering practice.
+- **Spaceship** — domain registrar. Owns and manages `quintlineadvisory.com`.
+
+**Integrations:**
+- **Formspree** — form handling API. Contact form submissions are securely routed to Gmail without needing a server.
+- **Google Analytics GA4** — industry-standard analytics. Tracks visitors, page views, traffic sources, time on site, and more. Same tool used by most of the internet.
+- **Google Fonts** — typography (Cormorant Garamond serif + Inter sans-serif) loaded from Google's global CDN.
+
+**The workflow:**
+Changes are made in a code editor, committed to GitHub, and Vercel automatically publishes them live within 30 seconds. This is the same deployment workflow used by most professional software teams.
+
+---
+
+---
+
 ## Live URLs
 - **Primary:** https://quintlineadvisory.com
 - **WWW:** https://www.quintlineadvisory.com
@@ -11,15 +39,16 @@
 ---
 
 ## Tech Stack
-| Layer | Tool |
-|-------|------|
-| Hosting | Vercel (free tier) |
-| Domain registrar | Spaceship |
-| Domain | quintlineadvisory.com (expires May 16, 2027) |
-| Source control | GitHub — org: quintlineadvisory, repo: best-web-ever |
-| Site type | Static HTML/CSS/JS (no framework) |
-| Form handling | Formspree (endpoint TBD — see below) |
-| Fonts | Cormorant Garamond (serif), Inter (sans) via Google Fonts |
+| Layer | Tool | Details |
+|-------|------|---------|
+| Languages | HTML, CSS, JavaScript | Hand-written, no framework |
+| Hosting | Vercel | Free tier, auto-deploy on git push |
+| Domain | quintlineadvisory.com | Expires May 16, 2027 |
+| Registrar | Spaceship | spaceship.com |
+| Version control | GitHub | Org: quintlineadvisory, repo: best-web-ever |
+| Form handling | Formspree | Endpoint: formspree.io/f/xlgvrbkq |
+| Analytics | Google Analytics GA4 | Measurement ID: G-Z83Q3Z8YSM |
+| Typography | Google Fonts | Cormorant Garamond (serif) + Inter (sans-serif) |
 
 ---
 
