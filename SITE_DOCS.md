@@ -216,18 +216,30 @@ Nameservers: `launch1.spaceship.net`, `launch2.spaceship.net`
 
 ## Pending Items
 - [ ] Add `rachel.png` to repo root and push
-- [ ] Replace `FORMSPREE_ENDPOINT_HERE` in index.html with real Formspree URL
 - [ ] Replace Calendly `href="#"` with real Calendly booking link
 - [ ] Turn on auto-renew for quintlineadvisory.com in Spaceship
+
+## Completed
+- [x] Site live at https://quintlineadvisory.com via Vercel
+- [x] Custom domain connected (Spaceship → Vercel DNS)
+- [x] Formspree wired up — endpoint: https://formspree.io/f/xlgvrbkq
+- [x] Form submission shows green inline confirmation + floating toast
+- [x] All 3 service cards with "Contact me" buttons
+- [x] Pricing section restored and added to nav
+- [x] About section with captaincy framing
+- [x] Nav button text fixed to white
+- [x] All service and pricing cards unified to same cream color
 
 ---
 
 ## Contact Form (Formspree)
-- Sign up: https://formspree.io with quintlineadvisory@gmail.com
+- Account: https://formspree.io — quintlineadvisory@gmail.com
 - Form name: "Quintline Contact"
-- Endpoint format: `https://formspree.io/f/xxxxxxxx`
-- In `index.html`, find `action="FORMSPREE_ENDPOINT_HERE"` and replace with endpoint
-- Push after updating
+- **Live endpoint:** `https://formspree.io/f/xlgvrbkq`
+- Submissions delivered to: quintlineadvisory@gmail.com
+- Subject line: "New inquiry — Quintline Advisory"
+- On submit: button shows "Sending..." → green inline message → green floating toast for 4 seconds
+- Enable spam filtering in the Formspree dashboard if submissions get noisy
 
 ---
 
